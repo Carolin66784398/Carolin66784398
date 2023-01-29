@@ -1,0 +1,94 @@
+* {
+	margin:0;
+	padding:0;
+}
+body {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	background: #ffffff url(images/siteBackground.jpg) no-repeat left top;
+	color: #ffffff;
+}
+a {
+	color:#000;
+	font-size:12px;
+	text-decoration:underline;
+}
+a:hover {
+	color:#000;
+	font-size:12px;
+	text-decoration:none;
+}
+.logo {
+	color:#552316;
+	font-size:60px;
+	font-style:italic;
+	text-align:right;
+}
+.logo span {
+	color:#8d6b63;
+}
+.author {
+	text-align:right;
+}
+.mainMenu {
+	text-align:right;
+	padding:150px 0 0 0;
+}
+.mainMenu li {
+	list-style:none;
+	display:inline;
+	margin:0 10px;
+}
+.mainMenu a {
+	color:#8d6b63;
+	font-size:24px;
+	text-decoration:none;
+}
+.mainMenu li a:hover {
+	color:#000000;
+	font-size:24px;
+	text-decoration:none;
+}
+.mainMenu li , #active a {
+	color:#000000;
+	font-size:24px;
+	text-decoration:none;
+}
+#container {
+	width: 800px;
+	margin: 0 auto;
+}
+#mainContent {
+	padding:0 0 0 345px;
+
+}
+.pBackground p, .p2Background p {
+	padding:10px 30px;
+}
+.pTop {
+	background:url(images/pTop.png) no-repeat left top;
+	height:19px;
+}
+.pBottom {
+	background:url(images/pBottom.png) no-repeat left top;
+	height:21px;
+}
+.pBackground {
+	background:url(images/pBackground.png) repeat-y left top;
+}
+.p2Top {
+	background:url(images/p2Top.png) no-repeat left top;
+	height:14px;
+}
+.p2Bottom {
+	background:url(images/p2Bottom.png) no-repeat left top;
+	height:17px;
+}
+.p2Background {
+	background:url(images/p2Background.png) repeat-y left top;
+}
+#footer {
+	padding:20px 0;
+	color:#552316;
+	text-align:center;
+}
